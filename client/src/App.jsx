@@ -4,7 +4,7 @@ import Home from './pages/Home.jsx';
 import Login from './pages/Login.jsx';
 import Profile from './pages/Profile.jsx';
 import { Toaster } from 'react-hot-toast';
-import { AuthContext } from './context/authContext.jsx';
+import { AuthContext } from './context/AuthContext.jsx';
 
 function App() {
   const {authUser} = useContext(AuthContext);

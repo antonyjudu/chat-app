@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import assets from '../assets/assets.js';
-import { AuthContext } from '../context/authContext.jsx';
+import { AuthContext } from '../context/AuthContext.jsx';
 
 function Profile() {
   const {authUser, updateProfile}= useContext(AuthContext);
