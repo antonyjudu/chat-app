@@ -7,7 +7,7 @@ import toast from 'react-hot-toast';
 
 function ChatContainer() {
   const scrollEnd = useRef();
-  const {messages, selectedUser, setSelecterUser, sendMessage, getMessages} = useContext(ChatContext);
+  const {messages, selectedUser, setSelectedUser, sendMessage, getMessages} = useContext(ChatContext);
   const {authUser, onlineUsers} = useContext(AuthContext);
   const [input, setInput] = useState([]);
 
@@ -42,7 +42,7 @@ function ChatContainer() {
 
   useEffect(() => {
     if(scrollEnd.current && messages){
-      scrollEnd.current.scrollIntoView({behaviour: "smooth"});
+      scrollEnd.current.scrollIntoView({behavior: "smooth"});
     }
   },[messages]);
 
