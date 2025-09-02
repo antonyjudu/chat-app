@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useContext, useState } from 'react'
 import assets, { messagesDummyData } from '../assets/assets.js';
 import { formatMessageTime } from '../library/Utils.js';
 import { ChatContext } from '../context/ChatContext.jsx';
-import { AuthContext } from '../context/authContext.jsx';
+import { AuthContext } from '../context/AuthContext.jsx';
 import toast from 'react-hot-toast';
 
 function ChatContainer() {
