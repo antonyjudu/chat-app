@@ -40,7 +40,7 @@ Experience the application live:
 | **Backend**       | Node.js, Express, Socket.IO         |
 | **Database**      | MongoDB (Mongoose ODM)              |
 | **Authentication**| JWT (JSON Web Tokens)               |
-| **Hosting**       | Vercel (Frontend), Heroku (Backend) |
+| **Hosting**       | Vercel (Frontend), Render (Backend) |
 
 ---
 
