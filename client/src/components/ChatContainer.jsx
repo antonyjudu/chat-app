@@ -55,7 +55,7 @@ function ChatContainer() {
           {selectedUser.fullName}
           {onlineUsers.includes(selectedUser._id) &&<span className='w-2 h-2 bg-green-500 rounded-full'></span> }
         </p>
-        <img src={assets.arrow_icon} className='md:hidden max-w-7' onClick={() => setSelecterUser(null)} />
+        <img src={assets.arrow_icon} className='md:hidden max-w-7' onClick={() => setSelectedUser(null)} />
         <img src={assets.help_icon} className='max-md:hidden max-w-5' />
       </div>
       {/* ---------Chat Area--------- */}
